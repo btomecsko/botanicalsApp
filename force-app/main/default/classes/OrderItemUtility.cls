@@ -23,7 +23,7 @@ public class OrderItemUtility {
                     //Create a new bouquet if the order is activated
                     OrderItem freeBouquet = new OrderItem (
                         OrderId = currentOrder.id, //this is the order we're linking the bouquet to
-                        //PricebookEntryId = entry.id,
+                        PricebookEntryId = entry.id,
                         numberOfFlowers__c = 3,
                         description = 'FREE Bouquet',
                         Quantity = 1,
